@@ -49,11 +49,6 @@ To get started with the development of Fridge Fixer, follow the steps below:
 2. Navigate to the project directory:
 3. Install dependencies:
 
-### Running the App
-
-- Connect your device/emulator and run the app using the following command:
-
-
 ---
 
 ### Group Members
