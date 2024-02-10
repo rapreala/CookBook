@@ -1,0 +1,364 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/combined-shape.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/image-11.png
+    - assets/page-1/images/wi-fi.png
+    - assets/page-1/images/rectangle-6-bg.png
+    - assets/page-1/images/battery-YvH.png
+    - assets/page-1/images/icon-general-arrow-right.png
+    - assets/page-1/images/create-account-prepare-planning.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/line-26.png
+    - assets/page-1/images/wi-fi-wZF.png
+    - assets/page-1/images/battery-QXo.png
+    - assets/page-1/images/wi-fi-PpH.png
+    - assets/page-1/images/combined-shape-cQu.png
+    - assets/page-1/images/vuesax-linear-more.png
+    - assets/page-1/images/mask-group-o4q.png
+    - assets/page-1/images/icon-general-arrow-right-mj3.png
+    - assets/page-1/images/vuesax-linear-arrow-left.png
+    - assets/page-1/images/combined-shape-VaM.png
+    - assets/page-1/images/wi-fi-pm3.png
+    - assets/page-1/images/battery-63X.png
+    - assets/page-1/images/icons8-google-240-1.png
+    - assets/page-1/images/mask-group-FCR.png
+    - assets/page-1/images/icon.png
+    - assets/page-1/images/vuesax-bold-location.png
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/icon-general-arrow-right-3Ps.png
+    - assets/page-1/images/mask-group-Sgu.png
+    - assets/page-1/images/vuesax-linear-more-Bvd.png
+    - assets/page-1/images/mask-group-kFX.png
+    - assets/page-1/images/vuesax-outline-timer.png
+    - assets/page-1/images/mask-group-PnD.png
+    - assets/page-1/images/mask-group-QGM.png
+    - assets/page-1/images/button.png
+    - assets/page-1/images/button-9CH.png
+    - assets/page-1/images/battery-Ydj.png
+    - assets/page-1/images/combined-shape-iMB.png
+    - assets/page-1/images/icon-general-arrow-right-Jih.png
+    - assets/page-1/images/icon-nav-bookmark-active.png
+    - assets/page-1/images/mask-group-i9T.png
+    - assets/page-1/images/mask-group-Ggm.png
+    - assets/page-1/images/mask-group-Smb.png
+    - assets/page-1/images/wi-fi-W2h.png
+    - assets/page-1/images/input-field-vuesax-bold-message.png
+    - assets/page-1/images/bookmark.png
+    - assets/page-1/images/vuesax-bold-location-ZXs.png
+    - assets/page-1/images/star.png
+    - assets/page-1/images/battery-o4q.png
+    - assets/page-1/images/vuesax-linear-arrow-left-ub3.png
+    - assets/page-1/images/mask-group-k6h.png
+    - assets/page-1/images/bookmark-Va5.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg.png
+    - assets/page-1/images/wi-fi-24D.png
+    - assets/page-1/images/mask-group-HKT.png
+    - assets/page-1/images/mask-group-q5w.png
+    - assets/page-1/images/mask-group-xgM.png
+    - assets/page-1/images/battery-h3T.png
+    - assets/page-1/images/star-Dg1.png
+    - assets/page-1/images/combined-shape-Zzm.png
+    - assets/page-1/images/mask-group-Xgh.png
+    - assets/page-1/images/wi-fi-oPK.png
+    - assets/page-1/images/combined-shape-nW9.png
+    - assets/page-1/images/vuesax-linear-arrow-left-v6Z.png
+    - assets/page-1/images/combined-shape-HrD.png
+    - assets/page-1/images/mask-group-Sz1.png
+    - assets/page-1/images/icon-general-arrow-right-QR3.png
+    - assets/page-1/images/button-kjo.png
+    - assets/page-1/images/mask-group-7RF.png
+    - assets/page-1/images/mask-group-fxZ.png
+    - assets/page-1/images/wi-fi-3Ju.png
+    - assets/page-1/images/button-ivq.png
+    - assets/page-1/images/cross.png
+    - assets/page-1/images/mask-group-G8M.png
+    - assets/page-1/images/combined-shape-MN5.png
+    - assets/page-1/images/mask-group-JHK.png
+    - assets/page-1/images/mask-group-mwb.png
+    - assets/page-1/images/wi-fi-4Bw.png
+    - assets/page-1/images/mask-group-bhf.png
+    - assets/page-1/images/flash-off.png
+    - assets/page-1/images/mask-group-Rq7.png
+    - assets/page-1/images/mask-group-fss.png
+    - assets/page-1/images/mask-group-2TX.png
+    - assets/page-1/images/mask-group-JR3.png
+    - assets/page-1/images/mask-group-KjT.png
+    - assets/page-1/images/mask-group-UsF.png
+    - assets/page-1/images/icon-k45.png
+    - assets/page-1/images/mask-group-k61.png
+    - assets/page-1/images/star-5.png
+    - assets/page-1/images/rotate.png
+    - assets/page-1/images/combined-shape-E2q.png
+    - assets/page-1/images/wi-fi-1C1.png
+    - assets/page-1/images/pictures-bg.png
+    - assets/page-1/images/vuesax-outline-timer-5Fj.png
+    - assets/page-1/images/star-UGV.png
+    - assets/page-1/images/camera.png
+    - assets/page-1/images/button-uZ7.png
+    - assets/page-1/images/mask-group-ZJD.png
+    - assets/page-1/images/mask-group-yA5.png
+    - assets/page-1/images/mask-group-pyK.png
+    - assets/page-1/images/vuesax-linear-more-YkD.png
+    - assets/page-1/images/icon-Jqj.png
+    - assets/page-1/images/create-account-select-interest-selected.png
+    - assets/page-1/images/mask-group-QNy.png
+    - assets/page-1/images/battery-LiR.png
+    - assets/page-1/images/mask-group-5R7.png
+    - assets/page-1/images/mask-group-vR3.png
+    - assets/page-1/images/mask-group-r85.png
+    - assets/page-1/images/image.png
+    - assets/page-1/images/fill-5.png
+    - assets/page-1/images/mask-group-Hed.png
+    - assets/page-1/images/mask-group-sjs.png
+    - assets/page-1/images/mask-group-YFf.png
+    - assets/page-1/images/mask-group-rgd.png
+    - assets/page-1/images/vuesax-outline-timer-5Su.png
+    - assets/page-1/images/mask-group-VEM.png
+    - assets/page-1/images/mask-group-8kV.png
+    - assets/page-1/images/mask-group-Tdf.png
+    - assets/page-1/images/mask-group-nWR.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-cnq.png
+    - assets/page-1/images/vuesax-linear-more-FAm.png
+    - assets/page-1/images/mask-group-TGq.png
+    - assets/page-1/images/component-4.png
+    - assets/page-1/images/mask-group-JYM.png
+    - assets/page-1/images/mask-group-GTo.png
+    - assets/page-1/images/combined-shape-xLd.png
+    - assets/page-1/images/vuesax-outline-timer-8eR.png
+    - assets/page-1/images/mask-group-gR3.png
+    - assets/page-1/images/battery-ExM.png
+    - assets/page-1/images/bookmark-Qey.png
+    - assets/page-1/images/combined-shape-HTs.png
+    - assets/page-1/images/mask-group-TYy.png
+    - assets/page-1/images/battery-R1F.png
+    - assets/page-1/images/image-b7T.png
+    - assets/page-1/images/image-B8Z.png
+    - assets/page-1/images/vuesax-linear-arrow-left-f3j.png
+    - assets/page-1/images/mask-group-cDs.png
+    - assets/page-1/images/mask-group-eAZ.png
+    - assets/page-1/images/mask-group-1Wu.png
+    - assets/page-1/images/vuesax-bold-location-Aub.png
+    - assets/page-1/images/wi-fi-VWD.png
+    - assets/page-1/images/mask-group-UPP.png
+    - assets/page-1/images/vuesax-bold-location-GMB.png
+    - assets/page-1/images/bookmark-PkZ.png
+    - assets/page-1/images/image-rHB.png
+    - assets/page-1/images/icon-Rgy.png
+    - assets/page-1/images/battery-EqB.png
+    - assets/page-1/images/mask-group-L2h.png
+    - assets/page-1/images/star-srM.png
+    - assets/page-1/images/mask-group-USh.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-e5T.png
+    - assets/page-1/images/rectangle-29.png
+    - assets/page-1/images/fill-5-azh.png
+    - assets/page-1/images/mask-group-2WH.png
+    - assets/page-1/images/mask-group-7EM.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-ULV.png
+    - assets/page-1/images/vuesax-bold-location-NJq.png
+    - assets/page-1/images/battery-533.png
+    - assets/page-1/images/mask-group-7gR.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-P2m.png
+    - assets/page-1/images/star-5-5DX.png
+    - assets/page-1/images/play-button.png
+    - assets/page-1/images/star-6.png
+    - assets/page-1/images/battery-iFo.png
+    - assets/page-1/images/mask-group-x2H.png
+    - assets/page-1/images/wi-fi-9yF.png
+    - assets/page-1/images/vuesax-linear-more-Snq.png
+    - assets/page-1/images/vuesax-bold-location-K7B.png
+    - assets/page-1/images/mask-group-jE5.png
+    - assets/page-1/images/icon-UWH.png
+    - assets/page-1/images/mask-group-YVT.png
+    - assets/page-1/images/mask-group-RaM.png
+    - assets/page-1/images/star-8.png
+    - assets/page-1/images/vuesax-linear-arrow-left-jE5.png
+    - assets/page-1/images/bookmark-MaD.png
+    - assets/page-1/images/star-SMK.png
+    - assets/page-1/images/bookmark-v3w.png
+    - assets/page-1/images/mask-group-ceq.png
+    - assets/page-1/images/combined-shape-AoP.png
+    - assets/page-1/images/mask-group-Jjf.png
+    - assets/page-1/images/mask-group-DaM.png
+    - assets/page-1/images/star-CtV.png
+    - assets/page-1/images/wi-fi-rkd.png
+    - assets/page-1/images/mask-group-WT7.png
+    - assets/page-1/images/mask-group-anq.png
+    - assets/page-1/images/vuesax-linear-arrow-left-VUq.png
+    - assets/page-1/images/vuesax-linear-more-i1K.png
+    - assets/page-1/images/mask-group-FdP.png
+    - assets/page-1/images/star-7.png
+    - assets/page-1/images/bookmark-LSR.png
+    - assets/page-1/images/combined-shape-9QR.png
+    - assets/page-1/images/icon-qLq.png
+    - assets/page-1/images/mask-group-mTK.png
+    - assets/page-1/images/vuesax-outline-timer-Rim.png
+    - assets/page-1/images/star-azq.png
+    - assets/page-1/images/mask-group-HdX.png
+    - assets/page-1/images/vuesax-outline-search-normal.png
+    - assets/page-1/images/image-nv1.png
+    - assets/page-1/images/star-9.png
+    - assets/page-1/images/vuesax-outline-timer-Vk9.png
+    - assets/page-1/images/star-x5j.png
+    - assets/page-1/images/vuesax-outline-timer-byP.png
+    - assets/page-1/images/star-oyF.png
+    - assets/page-1/images/bookmark-YKw.png
+    - assets/page-1/images/star-TYh.png
+    - assets/page-1/images/star-fcR.png
+    - assets/page-1/images/star-6S1.png
+    - assets/page-1/images/vuesax-outline-timer-Az9.png
+    - assets/page-1/images/image-Cmj.png
+    - assets/page-1/images/rating.png
+    - assets/page-1/images/star-LzH.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-Ni1.png
+    - assets/page-1/images/star-QQm.png
+    - assets/page-1/images/image-vn1.png
+    - assets/page-1/images/star-Njf.png
+    - assets/page-1/images/bookmark-qEm.png
+    - assets/page-1/images/image-7Kb.png
+    - assets/page-1/images/image-C5K.png
+    - assets/page-1/images/image-e61.png
+    - assets/page-1/images/combined-shape-qWm.png
+    - assets/page-1/images/vuesax-outline-timer-NZs.png
+    - assets/page-1/images/vuesax-outline-timer-Vy7.png
+    - assets/page-1/images/image-KEM.png
+    - assets/page-1/images/rating-Dt9.png
+    - assets/page-1/images/battery-Tuo.png
+    - assets/page-1/images/wi-fi-yyF.png
+    - assets/page-1/images/bookmark-ETX.png
+    - assets/page-1/images/image-kry.png
+    - assets/page-1/images/bookmark-FkR.png
+    - assets/page-1/images/star-izh.png
+    - assets/page-1/images/image-1t9.png
+    - assets/page-1/images/image-We1.png
+    - assets/page-1/images/auto-group-eg5j.png
+    - assets/page-1/images/star-Aku.png
+    - assets/page-1/images/d6cbc6849fe48a0f9d7a0778502d14b5-removebg-preview-1.png
+    - assets/page-1/images/star-1Zw.png
+    - assets/page-1/images/star-c13.png
+    - assets/page-1/images/vuesax-outline-timer-6xD.png
+    - assets/page-1/images/star-Zgy.png
+    - assets/page-1/images/star-Jjf.png
+    - assets/page-1/images/vuesax-outline-setting-4.png
+    - assets/page-1/images/rating-2hs.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-5nV.png
+    - assets/page-1/images/star-qtR.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-uBT.png
+    - assets/page-1/images/image-LHT.png
+    - assets/page-1/images/image-Sdb.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-oSu.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-rv1.png
+    - assets/page-1/images/button-filter.png
+    - assets/page-1/images/unsplash-ij24uq1smwm-bg-AW9.png
+    - assets/page-1/images/star-UQm.png
+    - assets/page-1/images/star-xBF.png
+    - assets/page-1/images/star-L6R.png
+    - assets/page-1/images/star-MND.png
+    - assets/page-1/images/vuesax-linear-arrow-left-v3P.png
+    - assets/page-1/images/star-JWq.png
+    - assets/page-1/images/battery-FXK.png
+    - assets/page-1/images/vuesax-outline-search-normal-NrR.png
+    - assets/page-1/images/combined-shape-psX.png
+    - assets/page-1/images/rectangle-646-bg.png
+    - assets/page-1/images/wi-fi-R8q.png
+    - assets/page-1/images/rectangle-646-bg-XTT.png
+    - assets/page-1/images/star-NgM.png
+    - assets/page-1/images/rectangle-646-bg-92M.png
+    - assets/page-1/images/star-dU1.png
+    - assets/page-1/images/rectangle-646-bg-xBP.png
+    - assets/page-1/images/rectangle-646-bg-ZFj.png
+    - assets/page-1/images/rectangle-646-bg-RLR.png
+    - assets/page-1/images/rectangle-646-bg-c3o.png
+    - assets/page-1/images/rectangle-646-bg-Nzh.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
