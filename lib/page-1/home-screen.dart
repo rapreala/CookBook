@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
   const Scene({super.key});
