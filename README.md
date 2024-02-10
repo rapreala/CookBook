@@ -56,18 +56,8 @@ To get started with the development of Fridge Fixer, follow the steps below:
 
 ---
 
-## Contributing
+### Group Members
 
-Thank you for considering contributing to Fridge Fixer! If you're interested in contributing, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Special thanks to all contributors and open-source projects that made this app possible.
-
-## Contact
-
-For any inquiries or feedback, please contact the project maintainers at fridgefixer@example.com.
+-Ryan Apreala
+-Jacqueline Tuyisenge
+-Aloysie Murekatete
