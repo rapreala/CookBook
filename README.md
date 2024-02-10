@@ -58,6 +58,6 @@ To get started with the development of Fridge Fixer, follow the steps below:
 
 ### Group Members
 
--Ryan Apreala
--Jacqueline Tuyisenge
--Aloysie Murekatete
+- Ryan Apreala
+- Jacqueline Tuyisenge
+- Aloysie Murekatete
